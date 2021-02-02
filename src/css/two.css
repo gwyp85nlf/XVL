@@ -1,0 +1,406 @@
+
+.title{
+    border:1px solid darkgrey;
+    width: 60px;
+    height:60px;
+    border-radius:50%;
+    box-shadow:0px 0px 10px darkgray,  0 0 6px darkgray ;
+    margin-left:50px;
+    margin-top: 10px;
+}
+.title img{
+    margin:13px;
+}
+header h1{
+    margin-left:500px;
+    margin-top:-50px;
+}
+.name4{
+    width: 120px;
+    height: 290px;
+    background-color: #FFFFFF;
+    position: absolute;
+    display: none;
+    opacity:0.5;
+    z-index: 10;
+}
+.name4 a{
+    text-decoration:none;
+    text-align:center;
+    color:#000000;
+}
+  .title:hover  .name4{
+    display: block;
+}
+.name5{
+    float:right;
+    margin-top:-167px;
+}
+.name8{
+    border:1px solid #000000;
+    width:250px;
+    height:40px;
+    border-radius:30px;
+    position:relative;
+    left:133px;
+    top:-152px;
+}
+.name2{
+    position:relative;
+    left:420px;
+    top:-99px;
+}
+#name{
+    border-style:none;
+    outline:none;
+    width:210px;
+    height:20px;
+    position:relative;
+    top:-3px;
+    left:10px;
+}
+#name1{
+    height:28px;
+    position:relative;
+    left:-203px;
+    top:28px;
+}
+#name2{
+    background-color: rgba(135, 99, 108, 0);
+    border-style:none;
+    position:relative;
+    top:-20px;
+    left:200px;
+    outline:none;
+}
+.name7{
+    position:relative;
+    top:-15px;
+}
+.name16{
+    position:relative;
+    top:90px;
+    left:40px;
+}
+#name11{
+    position:relative;
+    left:80px;
+}
+.name20{
+    position:relative;
+    top:40px;
+    left:300px;
+}
+#name18{
+    border:1px solid darkgray;
+    background-color:darkgray;
+    width:70px;
+    height:1px;
+}
+#name31{
+    border-radius:30px;
+    height:40px;
+    width:200px;
+    outline:none;
+}
+.name31{
+    position:relative;
+    left:30px;
+}
+.name12{
+    display:block;
+    color:#FFFFFF;
+    position:relative;
+    left:300px;
+}
+#name3{
+    background-color:#000000;
+    display:flex;
+    color:#FFFFFF;
+    height:300px;
+}
+.name11{
+  /*  background-image: url("image/伯爵旅拍1.jpg");*/
+    display:flex;
+    height:350px;
+    background-color:rgba(121,156,182,0.2);
+}
+#name4{
+    position:absolute;
+    top:5169px;
+    left:120px;
+}
+#name5{
+    position:relative;
+    top:91px;
+    left:50px;
+}
+#name6{
+    position:relative;
+    top:80px;
+    left:120px;
+}
+.name15 a{
+    color:#000000;
+    text-decoration:none;
+}
+.name15{
+    position:relative;
+    top:40px;
+    left:130px;
+}
+#name15{
+    width:280px;
+    height:40px;
+    border-radius:30px;
+    outline:none;
+    border-color:rgba(0,0,0,0.2);
+    background-color:rgba(0,0,0,0.2);
+}
+#name16{
+    background-color:darkgray;
+    height:45px;
+    width:60px;
+    border-radius:0 30px 30px 0;
+    outline:none;
+    position:relative;
+    left:-64px;
+    top:1px;
+    background-color:rgba(0,0,0,0.2);
+    border-color:rgba(0,0,0,0.4);
+}
+.you{
+    border: 1px solid #bdbdbd;/*边框*/
+}
+.you1{/*头*/
+    height:890px;
+    width: 1000px;
+}
+.you3{/*中*/
+    height:2550px;
+    width:1000px;
+}
+.you5{/*尾*/
+    height:1050px;
+    width:1000px;
+}
+.bg-fixed{/*背景框*/
+    height: 400px;
+    width: 1000px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.f1{
+    background-image: url("../pages/image/中国主3.jpg");
+}
+.f2{
+    background-image: url("../pages/image/中国主3.jpg");
+}
+.meng{/*中间线*/
+    border:1px solid darkgray;
+    height:0px;
+    width:960px;
+    background-color: #999999;
+    margin:60px 12px;
+    opacity:0.1;
+    position:absolute;
+    top:70px;
+}
+#zhu{
+    position:relative;
+    top:-20px;
+    left:-12px;
+}
+#zhu1{/*首页*/
+    position:relative;
+    top:-38px;
+    left:-30px;
+}
+.jin1{
+    position: absolute;
+    left:318px;
+    top:4678px;
+}
+.jin2{
+    position:relative;
+    left:25px;
+    width: 890px;
+}
+.jin3{
+    position:relative;
+    left:2px;
+
+}
+
+
+
+/*轮播*/
+* {
+    margin: 0;
+    padding: 0
+}
+.box1 {
+    width: 940px;
+    height: 500px;
+    /*border: 1px solid #ccc;*/
+    margin: 100px auto;
+    padding: 5px;
+    position: relative;
+    top: -80px;
+    left: 5px;
+}
+.inner {
+    width: 940px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.inner img {
+    width: 940px;
+    height: 500px;
+    vertical-align: top
+}
+
+.inner ul {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 0;
+}
+
+.inner li {
+    float: left;
+}
+
+.inner ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+#mei{
+ position: relative;
+ left:30px;
+}
+#tian2{
+   position: relative;
+    top:-120px;
+    text-shadow: #bdbdbd 3px 5px 10px;
+}
+
+
+
+.name0{
+    width:300px;
+    height:400px;
+    border:2px solid rgba(121,156,182,0.1);
+    margin-left:30px;
+    margin-bottom:40px;
+    padding:8px ;
+    box-shadow: #bdbdbd 8px 5px 20px;
+    display:inline-block;
+}
+.name0 img{
+    position: absolute;          /*让所有图片显示在一个位置，设置绝对位置*/
+    opacity: 0;
+    animation: dang 12s infinite;      /*设置图片轮播一次时间，以及轮播方式（无限循环）*/
+}
+@keyframes dang{
+    0% {                  /*在百分之零时图片完全不可见*/
+        opacity: 0;
+    }
+    1% {
+        opacity: 0.3;
+    }
+    2% {
+        opacity: 0.5;
+    }
+    3% {
+        opacity: 0.8;
+    }
+    4% {                 /*设置这些尽量让图片切换时更加流畅，不突兀*/
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    25% {               /*在此时本张图片显示结束，不透明度设置为0*/
+        opacity: 0;
+    }
+}
+img:nth-child(0){animation-delay: 0s;}/*设置下一个子元素延迟时间*/
+img:nth-child(1){animation-delay: 3s;}
+img:nth-child(2){animation-delay: 6s;}
+img:nth-child(3){animation-delay: 9s;}
+.name0:hover{
+    transform:translate(4px,5px);
+}
+.yuan40{
+    background-color: black;
+    border-radius:30px;
+    width: 130px;
+    height:40px;
+    margin: 10px 0 0 60px;
+    padding:10px 5px 5px 5px;
+    text-decoration: none;
+}
+.zuo1{
+    position:relative;
+    left: -20px;
+}
+.zuo2{
+    position:absolute;
+    left:310px;
+    top:1634px;
+}
+.zuo3{
+    position:absolute;
+    left:640px;
+    top:1634px;
+}
+.zuo4{
+    position:relative;
+    left: -20px;
+}
+.zuo5{
+    position:absolute;
+    left:310px;
+    top:2378px;
+
+}
+.zuo6{
+    position:absolute;
+    left:640px;
+    top:2378px;
+}
+.zuo7{
+    position:relative;
+    left: -20px;
+}
+.zuo8{
+    position:absolute;
+    left:310px;
+    top:3122px;
+
+}
+.zuo9{
+    position:absolute;
+    left:640px;
+    top:3122px;
+
+}
+.zuo{
+    position:fixed;
+    top:401px;
+    left:930px;
+    width:70px;
+    height:70px;
+}
+
+

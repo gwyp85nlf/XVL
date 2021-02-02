@@ -1,0 +1,267 @@
+
+header,section,footer{
+   /* border: 1px solid darkgray;*/
+    width:1000px;
+}
+.title{
+    border:1px solid darkgrey;
+    width: 60px;
+    height:60px;
+    border-radius:50%;
+    box-shadow:0px 0px 10px darkgray,  0 0 6px darkgray ;
+    margin-left:50px;
+
+}
+.title img{
+    margin:13px;
+}
+header h1{
+    margin-left:500px;
+    margin-top:-50px;
+}
+.name4{
+    width: 120px;
+    height: 290px;
+    background-color: #FFFFFF;
+    position: absolute;
+    display: none;
+    opacity:0.5;
+    z-index: 10;
+}
+.name4 a{
+    text-decoration:none;
+    text-align:center;
+    color:#000000;
+}
+#zhu{
+    position:relative;
+    top:-20px;
+    left:-12px;
+}
+#zhu1{
+    position:relative;
+    top:-38px;
+    left:-30px;
+}
+.name1101{
+    font-family:Georgia;
+    font-size:50px;
+    font-weight:500;
+    position:relative;
+    left:-70px;
+    top:-10px;
+}
+
+header  .title:hover .name4{
+    display: block;
+}
+.name5{
+    float:right;
+    margin-top:-85px;
+}
+.name8{
+    border:1px solid #000000;
+    width:250px;
+    height:40px;
+    border-radius:30px;
+    position:relative;
+    left:140px;
+    top:-55px;
+}
+#name{
+    border-style:none;
+    outline:none;
+    width:210px;
+    height:20px;
+    position:relative;
+    top:-3px;
+    left:10px;
+}
+#name1{
+    height:28px;
+    position:relative;
+    top:25px;
+    left:-200px;
+}
+#name2{
+    background-color: rgba(135, 99, 108, 0);
+    border-style:none;
+    position:relative;
+    top:-20px;
+    left:200px;
+    outline:none;
+}
+.name7{
+    position:relative;
+    top:-15px;
+}
+
+
+
+
+.name16{
+    position:relative;
+    top:90px;
+    left:40px;
+}
+#name11{
+    position:relative;
+    left:80px;
+}
+.name20{
+    position:relative;
+    top:40px;
+    left:300px;
+}
+#name18{
+    border:1px solid darkgray;
+    background-color:darkgray;
+    width:70px;
+    height:1px;
+}
+#name31{
+    border-radius:30px;
+    height:40px;
+    width:200px;
+    outline:none;
+}
+.name31{
+    position:relative;
+    left:30px;
+}
+.name12{
+    display:block;
+    color:#FFFFFF;
+    position:relative;
+    left:300px;
+}
+#name3{
+    background-color:#000000;
+    display:flex;
+    color:#FFFFFF;
+    height:300px;
+}
+.name11{
+   /* background-image: url("../pages/image/伯爵旅拍1.jpg");*/
+    display:flex;
+    height:350px;
+    background-color:rgba(121,156,182,0.2);
+}
+#name4{
+    position:absolute;
+    top:1004px;
+    left:120px;
+}
+#name5{
+    position:relative;
+    top:80px;
+    left: 50px;
+}
+#name6{
+    position:relative;
+    top:70px;
+    left:115px;
+}
+.name15 a{
+    color:#000000;
+    text-decoration:none;
+}
+.name15{
+    position:relative;
+    top:40px;
+    left:130px;
+}
+#name15{
+    width:280px;
+    height:40px;
+    border-radius:30px;
+    outline:none;
+    border-color:rgba(0,0,0,0.2);
+    background-color:rgba(0,0,0,0.2);
+}
+#name16{
+    background-color:darkgray;
+    height:45px;
+    width:60px;
+    border-radius:0 30px 30px 0;
+    outline:none;
+    position:relative;
+    left:-64px;
+    top:1px;
+    background-color:rgba(0,0,0,0.2);
+    border-color:rgba(0,0,0,0.4);
+}
+
+/*轮播*/
+* {
+    margin: 0;
+    padding: 0
+}
+.box1 {
+    width: 700px;
+    height: 600px;
+    /*border: 1px solid #ccc;*/
+    margin: 100px auto;
+    padding: 5px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    box-shadow: #000000 0 0 50px;
+}
+.inner {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner img {
+    width: 700px;
+    height: 600px;
+    vertical-align: top
+}
+
+.inner ul {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 0;
+}
+
+.inner li {
+    float: left;
+}
+
+.inner ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.inner ol li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.inner ol .current {
+    background-color: red;
+}
+section{
+    height: 800px;
+}
+.zuo{
+    position:fixed;
+    top:401px;
+    left:940px;
+    width:70px;
+    height:70px;
+}

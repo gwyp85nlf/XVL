@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZVL婚纱</title>
+  <link rel="stylesheet" href="../css/five.css">
+</head>
+<body>
+<header id="yuan">
+    <br/>
+    <div class="title"><img src="image/目录1.png" alt="">
+        <div class="name4">
+            <br/>
+            <p><a href="dome2.html"><strong>中国风主婚纱</strong></a><br/></p>
+            <br/>
+            <p><a href="dome3.html"><strong>法式主婚纱</strong></a><br/></p>
+            <br/>
+            <p><a href="dome4.html"><strong>日式主婚纱</strong></a><br/></p>
+            <br/>
+            <p><a href="dome5.html"><strong>韩式主婚纱</strong></a><br/></p>
+            <br/>
+            <p><a href="dome6.html"><strong>轻奢婚纱礼服</strong></a><br/></p>
+            <br/>
+            <p><a href="dome7.html"><strong>梦幻森系婚纱</strong></a><br/></p>
+            <br/>
+            <p><a href="dome1.html"><img src="img55/心2.png" alt=""
+                                         width="20px;" height="20px;" id="zhu">
+                <strong id="zhu1">首页</strong></a><br/></p>
+        </div>
+    </div>
+    <h1 class="name2"><trong class="name1101">ZVL</trong></h1>
+    <div class="name5">
+        <a href="" ><img src="image/爱心1.PNG" alt="购物车" class="name7"title="喜欢"/></a>&nbsp;
+        <a href="dome9.html"><img src="image/钱包.PNG" alt="登录中心"title="登录"></a>
+        &nbsp;&nbsp;<a href=""><img src="image/钱包1.PNG" alt="银行卡"title="个人中心"></a>
+    </div>
+    <div class="name8">
+        <form action="#" method="post">
+            <input type="search" name="sousou" placeholder="在ZVL.cm上搜索"  id="name"/>
+            <button type="submit"  id="name2"><img src="image/搜索.PNG" alt="" id="name1" ></button>
+        </form>
+    </div>
+</header>
+<section>
+    <div class="box1" id="box">
+        <div class="inner">
+            <ul>
+                <li>
+                    <div><a href=""><img src="image/天使嫁衣%20梦幻蕾丝森系超仙一字肩鱼尾拖尾新娘轻婚纱礼服批发820%20.jpg" height="600" width="940"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="image/天使嫁衣4.jpg" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="image/天使嫁衣2.jpg" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="image/天使嫁衣3.jpg" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="image/天使嫁衣1.jpg" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="img55/m法式111.png" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="img55/法式108.jpg" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="img55/法式112.png" height="600" width="700"/></a></div>
+                </li>
+                <li>
+                    <div><a href=""><img src="img55/法式113.jpg" height="600" width="700"/></a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function my$(id) {
+            return document.getElementById(id);
+        }
+        var box = my$("box");
+        var inner = box.children[0];
+        var ulObj = inner.children[0];
+        var list = ulObj.children;
+        var olObj = inner.children[1];
+        var imgWidth = inner.offsetWidth;
+        var right = my$("right");
+        var pic = 0;
+        for(var i = 0; i < list.length; i++) {
+            var liObj = document.createElement("li");
+            liObj.innerText = (i + 1);
+            liObj.setAttribute("index", i);
+            liObj.onmouseover = function() {
+                for(var j = 0; j < olObj.children.length; j++) {
+                    olObj.children[j].removeAttribute("class");
+                }
+                this.className = "current";
+                pic = this.getAttribute("index");
+                animate(ulObj, -pic * imgWidth);}}
+        ulObj.appendChild(ulObj.children[0].cloneNode(true));
+        var timeId = setInterval(onmouseclickHandle, 4000);
+        function onmouseclickHandle() {
+            if(pic == list.length - 1) {
+                pic = 0;
+                ulObj.style.left = 0 + "px";}
+            pic++;
+            animate(ulObj, -pic * imgWidth);}
+        function animate(element, target) {
+            clearInterval(element.timeId);
+            element.timeId = setInterval(function() {
+                var current = element.offsetLeft;
+                var step = 10;
+                step = current < target ? step : -step;
+                current += step;
+                if(Math.abs(current - target) > Math.abs(step)) {
+                    element.style.left = current + "px";
+                } else {
+                    clearInterval(element.timeId);
+                    element.style.left = target + "px";
+                }
+            }, 10);
+        }
+    </script>
+</section>
+<footer>
+    <div id="name3">
+        <br/>
+        <br/>
+        <h2 class="name12"><strong>ZVL织女郎线上精品店专享服务</strong></h2>
+        <div id="name4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/尾部1.PNG" alt="" width="60px" height="60px">
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;免费配送<br/>
+            <br/>
+            所有订单均享免费顺丰速递
+        </div>
+        <div id="name5">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/尾部2.PNG" alt="" width="50px" height="50px">
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;七天无理由退货<br/>
+            <br/>
+            非定制商品订单自签收日起七天<br/>
+            <br/>
+            &nbsp;&nbsp;&nbsp;内可享无理由退货
+        </div>
+        <div id="name6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/尾部3.PNG" alt="" width="60px" height="60px">
+            <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;艺术包装<br/>
+            <br/>
+            尊享ZVL织女郎艺术包装
+        </div>
+    </div>
+    <div class="name11">
+        <div class="name16">
+            &nbsp;&nbsp;&nbsp;<strong id="name11">电子通讯</strong><br/>
+            <br/>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="*请输入你的邮箱" id="name15" >
+                <button type="submit" id="name16"><strong>确定</strong></button>
+            </form>
+        </div>
+        <div class="name15">
+            <a href="#">&nbsp;<strong>联系我们</strong></a><br/>
+            <br/>
+            <a href="#"><strong>配送及退货</strong></a><br/>
+            <br/>
+            <a href="#">&nbsp;<strong>常见问题</strong></a><br/>
+            <br/>
+            <a href="#">&nbsp;<strong>使用条款</strong></a><br/>
+            <br/>
+            <a href="#"><strong>数据保护章程</strong></a><br/>
+        </div>
+        <div class="name20">
+            <div class="name31">
+                <strong>关注我们</strong><br/>
+                <br/>
+                <img src="image/底部3.png" alt="" width="60px" height="60px" id="name20"><br/>
+                <br/>
+                <div type="color:darkgray" id="name18"></div>
+                <br/>
+            </div>
+            &emsp;&emsp;<strong>国家/地区</strong><br/>
+            <br/>
+            <form action="#" method="post" >
+                <select name="bmon" id="name31">
+                    <option value="中国大陆" selected><strong>中国大陆（CNY￥）</strong></option>
+                    <option value="香港特别行政区"><strong>香港特别行政区</strong></option>
+                    <option value="Hong Kong SAR">Hong Kong SAR</option>
+                    <option value="Asia - Oceania">Asia - Oceania</option>
+                    <option value="台湾地区"><strong>台湾地区</strong></option>
+                    <option value="日本"><strong>日本(JPY￥)</strong></option>
+                    <option value="Brasil"><strong>Brasil</strong></option>
+                    <option value="RomaNia(EURE)">RomaNia(EURE)</option>
+                    <option value="Polska(EURE)">Polska(EURE)</option>
+                    <option value="Austria(EURE)">Austria(EURE)</option>
+                    <option value="Sverige(EURE)">Sverige(EURE)</option>
+                    <option value="Espana(EURE)">Espana(EURE)</option>
+                    <option value="France(EURE)">France(EURE)</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <a href="#yuan"><img src="image/返回顶部.png" alt="" class="zuo" title="返回顶部"></a>
+</footer>
+</body>
+</html>
